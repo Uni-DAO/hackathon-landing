@@ -1,6 +1,6 @@
 .btn, body main .container__rainbow--link__playstore--link, body main .container__rainbow--link__appstore--link, body main .container__rainbow .link__playstore--link, body main .container__rainbow .link__appstore--link {
   display: inline-block;
-  background-color: #b159ff;
+  background-color: #975dca;
   padding: 0.75rem 1rem;
   width: 100%;
   border-radius: 10px;
@@ -52,7 +52,7 @@
   font-size: 24px;
 }
 .title--purple {
-  color: #b159ff;
+  color: #975dca;
 }
 
 .paragraph, .paragraph--bold {
@@ -164,9 +164,6 @@ body footer {
   }
   .title--small {
     font-size: 20px;
-  }
-  .title--purple {
-    color: #8c3bba;
   }
   .paragraph, .paragraph--bold {
     font-size: 16px;
