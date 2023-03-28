@@ -1,0 +1,88 @@
+@media screen and (max-width:425px) {
+    // elements
+    .btn {
+        width: 60%;
+        font-size: 18px;
+    }
+
+    .btn-inline {
+        font-size: 18px;
+    }
+
+    .title {
+        font-size: 24px;
+
+        &--small {
+            font-size: 20px;
+        }
+
+        &--purple {
+            color: $purple-light-title;
+        }
+    }
+
+    .paragraph {
+        font-size: 16px;
+
+        &--bold {
+            @extend .paragraph;
+            font-weight: 650;
+        }
+    }
+
+    .container--p {
+        width: 75%;
+    }
+
+    body {
+
+        header {
+            width: 85%;
+
+            .logo {
+                width: 200px !important;
+            }
+        }
+
+        main {
+            .container {
+                width: 100%;
+                max-width: 320px;
+
+                &__rainbow {
+
+                    &--link,
+                    .link {
+                        flex-direction: column;
+                        row-gap: 3rem;
+
+                        &__playstore,
+                        &__appstore {
+                            &--title {
+                                font-size: 25px !important;
+                            }
+
+                            &--link {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+
+                &__address {
+                    .container--btn {
+                        margin-top: 2rem;
+
+                        .btn-inline {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        footer {
+            padding: 1rem 0 3rem 0;
+        }
+    }
+}

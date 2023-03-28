@@ -1,0 +1,214 @@
+.btn, body main .container__rainbow--link__playstore--link, body main .container__rainbow--link__appstore--link, body main .container__rainbow .link__playstore--link, body main .container__rainbow .link__appstore--link {
+  display: inline-block;
+  background-color: #7904bc;
+  padding: 0.75rem 1rem;
+  width: 100%;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  transition: all 350ms ease;
+}
+
+.btn:hover, body main .container__rainbow--link__playstore--link:hover, body main .container__rainbow--link__appstore--link:hover, body main .container__rainbow .link__playstore--link:hover, body main .container__rainbow .link__appstore--link:hover {
+  background-color: #30034A;
+  color: white;
+}
+
+.btn-inline {
+  display: inline-block;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.5s ease;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #743ad5, #d53a9d);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+.btn-inline:hover {
+  color: rgb(220, 220, 220);
+  cursor: pointer;
+}
+
+.title, body main .container__rainbow--link__playstore--title, body main .container__rainbow--link__appstore--title, body main .container__rainbow .link__playstore--title, body main .container__rainbow .link__appstore--title, .title--purple, .title--small {
+  margin-bottom: 0;
+  text-align: center;
+  color: #eeeeee;
+  font-size: 28px;
+  font-weight: 600;
+}
+.title--small {
+  font-size: 24px;
+}
+.title--purple {
+  color: #8c3bba;
+}
+
+.paragraph, .paragraph--bold {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.paragraph--bold {
+  font-weight: 650;
+}
+
+.container--p {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  background-color: rgb(24, 24, 24);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body header {
+  padding-top: 1.5rem;
+  background-color: #7904bc;
+  padding: 1rem;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+body header .logo {
+  margin-bottom: 1rem;
+}
+body main .container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+body main .container > * {
+  margin: 6rem 0;
+}
+body main .container__rainbow--link, body main .container__rainbow .link {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+body main .container__rainbow--link > *, body main .container__rainbow .link > * {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1.5rem;
+}
+body main .container__rainbow--link__playstore--title, body main .container__rainbow--link__appstore--title, body main .container__rainbow .link__playstore--title, body main .container__rainbow .link__appstore--title {
+  font-size: 30px;
+}
+body main .container__rainbow--link__playstore--qr, body main .container__rainbow--link__appstore--qr, body main .container__rainbow .link__playstore--qr, body main .container__rainbow .link__appstore--qr {
+  width: 250px !important;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #743ad5, #d53a9d);
+}
+body main .container__rainbow--link__playstore--link, body main .container__rainbow--link__appstore--link, body main .container__rainbow .link__playstore--link, body main .container__rainbow .link__appstore--link {
+  font-size: 20px;
+}
+body main .container__address .container--btn {
+  margin-top: 1.25rem;
+  display: inline-block;
+}
+body main .container__address .container--btn .btn-inline {
+  font-size: 25px;
+  display: block;
+  margin-bottom: 8px;
+}
+footer {
+  background-color: #7904bc;
+  padding: 1.5rem;
+}
+
+@media screen and (max-width: 425px) {
+  .btn, body main .container__rainbow--link__playstore--link, body main .container__rainbow--link__appstore--link, body main .container__rainbow .link__playstore--link, body main .container__rainbow .link__appstore--link {
+    width: 60%;
+    font-size: 18px;
+  }
+  .btn-inline {
+    font-size: 18px;
+  }
+  .title, .title--small, .title--purple, body main .container__rainbow--link__playstore--title, body main .container__rainbow--link__appstore--title, body main .container__rainbow .link__playstore--title, body main .container__rainbow .link__appstore--title {
+    font-size: 24px;
+  }
+  .title--small {
+    font-size: 20px;
+  }
+  .title--purple {
+    color: #8c3bba;
+  }
+  .paragraph, .paragraph--bold {
+    font-size: 16px;
+  }
+  .paragraph--bold {
+    font-weight: 650;
+  }
+  .container--p {
+    width: 75%;
+  }
+  body header {
+    width: 85%;
+  }
+  body header .logo {
+    width: 200px !important;
+  }
+  body main .container {
+    width: 100%;
+    max-width: 320px;
+  }
+  body main .container__rainbow--link,
+  body main .container__rainbow .link {
+    flex-direction: column;
+    row-gap: 3rem;
+  }
+  body main .container__rainbow--link__playstore--title, body main .container__rainbow--link__appstore--title,
+  body main .container__rainbow .link__playstore--title,
+  body main .container__rainbow .link__appstore--title {
+    font-size: 25px !important;
+  }
+  body main .container__rainbow--link__playstore--link, body main .container__rainbow--link__appstore--link,
+  body main .container__rainbow .link__playstore--link,
+  body main .container__rainbow .link__appstore--link {
+    font-size: 18px;
+  }
+  body main .container__address .container--btn {
+    margin-top: 2rem;
+  }
+  body main .container__address .container--btn .btn-inline {
+    font-size: 20px;
+  }
+  body footer {
+    padding: 1rem 0 3rem 0;
+  }
+}/*# sourceMappingURL=index.css.map */
