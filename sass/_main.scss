@@ -17,7 +17,7 @@ body {
 
     header {
         padding-top: 1.5rem;
-        background-color: $purple-light;
+        background-color: $purple-dark;
         padding: 1rem;
         width: 90%;
         margin: 0 auto;
@@ -102,5 +102,10 @@ body {
 
             }
         }
+    }
+
+    footer {
+        background-color: $purple-dark;
+        padding: 1.5rem;
     }
 }

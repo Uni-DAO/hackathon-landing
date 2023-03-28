@@ -1,6 +1,6 @@
 .btn, body main .container__rainbow--link__playstore--link, body main .container__rainbow--link__appstore--link, body main .container__rainbow .link__playstore--link, body main .container__rainbow .link__appstore--link {
   display: inline-block;
-  background-color: #7904bc;
+  background-color: #b159ff;
   padding: 0.75rem 1rem;
   width: 100%;
   border-radius: 10px;
@@ -14,7 +14,7 @@
 }
 
 .btn:hover, body main .container__rainbow--link__playstore--link:hover, body main .container__rainbow--link__appstore--link:hover, body main .container__rainbow .link__playstore--link:hover, body main .container__rainbow .link__appstore--link:hover {
-  background-color: #30034A;
+  background-color: #7a01c0;
   color: white;
 }
 
@@ -52,7 +52,7 @@
   font-size: 24px;
 }
 .title--purple {
-  color: #8c3bba;
+  color: #b159ff;
 }
 
 .paragraph, .paragraph--bold {
@@ -90,7 +90,7 @@ body {
 }
 body header {
   padding-top: 1.5rem;
-  background-color: #7904bc;
+  background-color: #7a01c0;
   padding: 1rem;
   width: 90%;
   margin: 0 auto;
@@ -146,8 +146,8 @@ body main .container__address .container--btn .btn-inline {
   display: block;
   margin-bottom: 8px;
 }
-footer {
-  background-color: #7904bc;
+body footer {
+  background-color: #7a01c0;
   padding: 1.5rem;
 }
 
@@ -209,6 +209,6 @@ footer {
     font-size: 20px;
   }
   body footer {
-    padding: 1rem 0 3rem 0;
+    padding: 1rem 0 1rem 0;
   }
 }/*# sourceMappingURL=index.css.map */
