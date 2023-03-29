@@ -1,6 +1,6 @@
 .btn, body main .container__rainbow--link__playstore--link, body main .container__rainbow--link__appstore--link, body main .container__rainbow .link__playstore--link, body main .container__rainbow .link__appstore--link {
   display: inline-block;
-  background-color: #975dca;
+  background-color: #ac4dff;
   padding: 0.75rem 1rem;
   width: 100%;
   border-radius: 10px;
@@ -14,7 +14,7 @@
 }
 
 .btn:hover, body main .container__rainbow--link__playstore--link:hover, body main .container__rainbow--link__appstore--link:hover, body main .container__rainbow .link__playstore--link:hover, body main .container__rainbow .link__appstore--link:hover {
-  background-color: #7a01c0;
+  background-color: #8b05d8;
   color: white;
 }
 
@@ -52,7 +52,7 @@
   font-size: 24px;
 }
 .title--purple {
-  color: #975dca;
+  color: #ac4dff;
 }
 
 .paragraph, .paragraph--bold {
@@ -90,7 +90,7 @@ body {
 }
 body header {
   padding-top: 1.5rem;
-  background-color: #7a01c0;
+  background-color: #8b05d8;
   padding: 1rem;
   width: 90%;
   margin: 0 auto;
@@ -98,7 +98,7 @@ body header {
   border-radius: 10px;
 }
 body header .logo {
-  margin-bottom: 1rem;
+  margin-bottom: 1.75rem;
 }
 body main .container {
   width: 100%;
@@ -147,7 +147,7 @@ body main .container__address .container--btn .btn-inline {
   margin-bottom: 8px;
 }
 body footer {
-  background-color: #7a01c0;
+  background-color: #8b05d8;
   padding: 1.5rem;
 }
 
