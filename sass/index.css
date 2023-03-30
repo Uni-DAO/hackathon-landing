@@ -55,11 +55,14 @@
   color: #ac4dff;
 }
 
-.paragraph, .paragraph--bold {
+.paragraph, .paragraph--bold, .paragraph--big {
   color: white;
   font-size: 16px;
   font-weight: 400;
   font-family: Arial, Helvetica, sans-serif;
+}
+.paragraph--big {
+  font-size: 22px;
 }
 .paragraph--bold {
   font-weight: 650;
@@ -165,7 +168,7 @@ body footer {
   .title--small {
     font-size: 20px;
   }
-  .paragraph, .paragraph--bold {
+  .paragraph, .paragraph--big, .paragraph--bold {
     font-size: 16px;
   }
   .paragraph--bold {
