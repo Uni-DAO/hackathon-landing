@@ -1,8 +1,9 @@
 // variables
-$purple-dark: #8b05d8;
-$purple-light: #ac4dff;
+$blue-dark: rgb(23, 23, 46);
+$purple-dark: rgb(138, 59, 191);
+$purple-light: rgb(210, 137, 255);
 // $purple-light: #A874E7;
-$purple-light-title: #8c3bba;
+$purple-light-background: rgb(210, 137, 255);
 $pink: #F21884; 
 $gradient: linear-gradient(to right, #743ad5, #d53a9d);
 $green-dark: #025157;
@@ -21,13 +22,13 @@ $header-color-black: #4a4a4a;
 .btn {
     display: inline-block;
     background-color: $purple-light;
-    padding: .75rem 1rem;
+    padding: .75rem 1.75rem;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
     text-decoration: none;
     text-align: center;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 600;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     transition: all 350ms ease;

@@ -8,7 +8,7 @@
 
 body {
     font-size: 16px;
-    background-color: $dark-gray;
+    background-color: $blue-dark;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -17,12 +17,12 @@ body {
 
     header {
         padding-top: 1.5rem;
-        background-color: $purple-dark;
+        background-color: $purple-light-background;
         padding: 1rem;
         width: 90%;
         margin: 0 auto;
         margin-top: 1rem;
-        border-radius: 10px;
+        border-radius: 5px;
         
         .logo {
             margin-bottom: 1.75rem;
@@ -74,7 +74,7 @@ body {
 
                         &--link {
                             @extend .btn;
-                            font-size: 20px;
+                            font-size: 18px;
                         }
                     }
                 }
@@ -97,7 +97,7 @@ body {
     }
 
     footer {
-        background-color: $purple-dark;
+        background-color: $purple-light-background;
         padding: 1.5rem;
     }
 }
